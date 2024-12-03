@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: FireballInfo2
+  m_EditorClassIdentifier: 
+  abilityName: Fireball II
+  description: Enhances fireball to be bigger and badder.
+  abiltyType: 0
+  cooldown: 5
+  damage: 150
+  cost: 60
+  abilityPrefab: {fileID: 2339616375373499159, guid: 11d2132c5e3d76b4e98ba02aa60eaf14, type: 3}
+  projectileDestoryAfterCollision: 1
+  despawnTime: 4
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 10
+  projectileSpread: 0
+  castingSound: {fileID: 8300000, guid: ab7cd7c07fcaa054ab85c236b246ddc1, type: 3}
+  icon: {fileID: -1495571360, guid: d5527e80afd05b841b05e08f8f8350e3, type: 3}
+  nextLevel: {fileID: 11400000, guid: 6acd7263c1e1d784e81508c94897122b, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: EarthShatter2
+  m_EditorClassIdentifier: 
+  abilityName: Earth Shatter II
+  description: It is almost as if you were bending the vary earth itself.
+  abiltyType: 0
+  cooldown: 8
+  damage: 40
+  cost: 60
+  abilityPrefab: {fileID: 1314945738539566, guid: 22b9dd216aa562845873e05ebb55fb82, type: 3}
+  projectileDestoryAfterCollision: 0
+  despawnTime: 8
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: -1, z: 0}
+  projectileTargetSpeed: 0
+  projectileSpread: 0
+  castingSound: {fileID: 8300000, guid: 20f0407c248488a44af63dd5ed03de46, type: 3}
+  icon: {fileID: -642281900, guid: f63a45932bba90b4bac33958f45d021c, type: 3}
+  nextLevel: {fileID: 11400000, guid: 3542f5d1397191a40803d40c79f4a356, type: 2}

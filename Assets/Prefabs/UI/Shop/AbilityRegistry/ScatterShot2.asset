@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: ScatterShot2
+  m_EditorClassIdentifier: 
+  abilityName: Scatter Shot
+  description: Short range blast of sharp crystals. You get a shard! you get a shard!
+    EVERYONE gets a shard!
+  abiltyType: 2
+  cooldown: 1
+  damage: 10
+  cost: 50
+  abilityPrefab: {fileID: 3487376971440152185, guid: bb8c1324726513049935aa2925e456ff, type: 3}
+  projectileDestoryAfterCollision: 1
+  despawnTime: 0.5
+  projectileTargetDirection: {x: 0, y: 0, z: 1}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 30
+  projectileSpread: 0
+  castingSound: {fileID: 8300000, guid: a0e819afbed7a1343bf41a083ea32cef, type: 3}
+  icon: {fileID: 21300000, guid: e96dda9b85aea424cb7a3c4ed64bb090, type: 3}
+  nextLevel: {fileID: 11400000, guid: 3cce6759fff0ab14da823f73e58eeac3, type: 2}

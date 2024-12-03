@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: IceBlock
+  m_EditorClassIdentifier: 
+  abilityName: Ice Block
+  description: Freeze in place and temporarily gain invulnerability while you recover
+    hp. A little ice goes a long way!
+  abiltyType: 0
+  cooldown: 60
+  damage: 0
+  cost: 150
+  abilityPrefab: {fileID: 1988578813820053761, guid: 6a6cf11bdaae642549eccc3989f89280, type: 3}
+  projectileDestoryAfterCollision: 0
+  despawnTime: 4
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 0
+  projectileSpread: 0
+  castingSound: {fileID: 0}
+  icon: {fileID: 21300000, guid: ab08bdaa1ccab1b46b54729438a1e4fd, type: 3}
+  nextLevel: {fileID: 0}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: Shield2
+  m_EditorClassIdentifier: 
+  abilityName: Shield II
+  description: Shield yourself even more often with this upgrade. Warranty not included.
+  abiltyType: 0
+  cooldown: 15
+  damage: 0
+  cost: 50
+  abilityPrefab: {fileID: 7412106616094066697, guid: 0539007cdeb28e0448eb2989c8b18314, type: 3}
+  projectileDestoryAfterCollision: 0
+  despawnTime: 4
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 0
+  projectileSpread: 0
+  castingSound: {fileID: 0}
+  icon: {fileID: -889005444, guid: c922765abe4bbfe4ab6e8579f6ba102d, type: 3}
+  nextLevel: {fileID: 11400000, guid: d8fc6ff60dfbe9046b811a544b727c30, type: 2}

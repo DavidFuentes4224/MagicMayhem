@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: Napalm3
+  m_EditorClassIdentifier: 
+  abilityName: Napalm III
+  description: These flames burn even faster! Tell your goblin friends to roast their
+    marshmallows somewhere else!
+  abiltyType: 0
+  cooldown: 12
+  damage: 10
+  cost: 180
+  abilityPrefab: {fileID: 4814858020290734396, guid: 27bc4a606c7a36649bf1ac6cf232e8cf, type: 3}
+  projectileDestoryAfterCollision: 0
+  despawnTime: 6
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 0
+  projectileSpread: 0
+  castingSound: {fileID: 8300000, guid: 447e97f44e7d0fd4eb6ddec82c319992, type: 3}
+  icon: {fileID: 1812218779, guid: 1992475f6c27e05418e6873cedebd01c, type: 3}
+  nextLevel: {fileID: 0}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: DamagingAura2
+  m_EditorClassIdentifier: 
+  abilityName: Damaging Aura II
+  description: Increase your power even more for longer. Trusted by at least 1 out
+    of 10 magicians.
+  abiltyType: 0
+  cooldown: 10
+  damage: 1
+  cost: 50
+  abilityPrefab: {fileID: 7823327091382468809, guid: 23695a3da8718954790ea0f2f5b9ae31, type: 3}
+  projectileDestoryAfterCollision: 0
+  despawnTime: 8
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 0
+  projectileSpread: 0
+  castingSound: {fileID: 0}
+  icon: {fileID: 2084796411, guid: 339a20dd9f7c61343ab07dd7ded21676, type: 3}
+  nextLevel: {fileID: 11400000, guid: 4241bee66d3e1b1409d7c26a3c3da9ab, type: 2}

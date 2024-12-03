@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551a748250aa37a4788a42b2f8f39381, type: 3}
+  m_Name: FireballInfo
+  m_EditorClassIdentifier: 
+  abilityName: Fireball
+  description: Sends a fireball hurtling at an enemy. Nothing says hello like a fireball
+    to the face!
+  abiltyType: 0
+  cooldown: 5
+  damage: 100
+  cost: 15
+  abilityPrefab: {fileID: 2339616375373499159, guid: f5b8b186ab33259498e21fe053699237, type: 3}
+  projectileDestoryAfterCollision: 1
+  despawnTime: 4
+  projectileTargetDirection: {x: 0, y: 0, z: 0}
+  castingOffset: {x: 0, y: 0, z: 0}
+  projectileTargetSpeed: 10
+  projectileSpread: 0
+  castingSound: {fileID: 8300000, guid: ab7cd7c07fcaa054ab85c236b246ddc1, type: 3}
+  icon: {fileID: -1495571360, guid: d5527e80afd05b841b05e08f8f8350e3, type: 3}
+  nextLevel: {fileID: 11400000, guid: eb1205f2c4979fa4382e5efc6e384314, type: 2}
